@@ -13,7 +13,7 @@ private:
     std::atomic_int counter;
 
 public:
-    Counter() : counter(0){};
+    Counter() : counter(0){}
 
     void inc() {
         counter++;
